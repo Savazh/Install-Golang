@@ -1,4 +1,4 @@
-## 1. Update your server.
+### 1. Update your server.
 
 ```sudo apt update && sudo apt upgrade -y```
 
@@ -22,13 +22,15 @@ go version
 rm -rf go1.19.1.linux-amd64.tar.gz
 ```
 
-#### 3. If you would like update your Golang "Go" you need input following commands.
+### 3. If you would like update your Golang "Go" you need input following commands.
 
 ```rm -rvf /usr/local/go/```
+
 ```rm -rvf go```
 Than proceed to the step 2 of this guide.
 
-# 4. If you would like delete your Golang "Go" from your server you need input following commands.
+### 4. If you would like delete your Golang "Go" from your server you need input following commands.
 
 ```rm -rvf /usr/local/go/```
+
 ```rm -rvf go```
